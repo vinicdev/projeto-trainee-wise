@@ -1,0 +1,11 @@
+:root{
+    --inconsolata: 'Inconsolata', monospace;
+    --black: #1D1E20;
+    --light-grey: #ECECEC;
+    --white: #FFFFFF;
+    --yellow: #fff200;
+}
+
+body{
+    font-family: var(--inconsolata);
+}
