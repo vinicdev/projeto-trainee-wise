@@ -9,3 +9,57 @@
 body{
     font-family: var(--inconsolata);
 }
+
+header{
+    position: relative;
+    width: auto;
+    padding: 1.25rem 3.125rem;    
+    background: var(--black);   
+}
+
+#navbar{
+    position: relative;
+    width: auto;
+    height: 2.5rem;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lavender;  */
+}
+
+#navbar h1{
+    color: var(--white);
+    padding: 0.1875rem;
+    width: 25%;
+
+    text-align: center;
+    font-size: 1.5rem; 
+    /* background-color: grey; */
+}
+
+nav{
+    /* background-color: pink; */
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    display: inline;
+    padding-left: 2rem;
+}
+
+nav a{
+    color: var(--white);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--yellow);
+    text-decoration:underline;
+}
