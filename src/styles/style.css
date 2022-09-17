@@ -33,7 +33,7 @@ header{
 #navbar h1{
     color: var(--white);
     padding: 0.1875rem;
-    width: 25%;
+    width: 20%;
 
     text-align: center;
     font-size: 1.5rem; 
@@ -43,7 +43,7 @@ header{
 nav{
     /* background-color: pink; */
     padding: 5px;
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
 }
