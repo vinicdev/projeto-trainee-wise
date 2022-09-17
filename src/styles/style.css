@@ -63,3 +63,25 @@ nav a:hover{
     color: var(--yellow);
     text-decoration:underline;
 }
+
+.container__title{
+    margin-bottom: 2rem;
+}
+
+.section__title{
+    position: relative;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.section__title:before {
+    content: '';
+    position: absolute;
+    bottom: -0.625rem;
+    left: 0;
+    width: 3.625rem;
+    height: .1875rem;
+    background-color: var(--yellow);
+}
+
+
