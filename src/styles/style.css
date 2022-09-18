@@ -93,4 +93,43 @@ nav a:hover{
     background-color: var(--yellow);
 }
 
+#presentation{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    flex-direction: center;
+
+    padding: 3.75rem;
+}
+
+.presentation__links{
+    /* margin-bottom: 50px; */
+}
+
+.presentation__links ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-direction: center;
+
+    margin-bottom: 20px;
+}
+
+.presentation__links li{
+    list-style: none;
+}
+
+.presentation__links i{
+    color: var(--white);
+    font-size: 26px;
+    padding: 4px;
+
+    transition: .4s;
+}
+
+.presentation__links i:hover{
+    color: var(--yellow);
+}
+
 
