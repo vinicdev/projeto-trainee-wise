@@ -8,14 +8,7 @@
     justify-content: center;
 }
 
-#about__container{
-    width: 80%;
-    height: 80%;
-    background-color: yellow;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.about__container{
     flex-direction: row;
 }
 
@@ -43,6 +36,3 @@
     background-color: pink;
 }
 
-#about__content{
-
-}

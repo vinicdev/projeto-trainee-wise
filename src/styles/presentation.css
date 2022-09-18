@@ -8,18 +8,11 @@
    align-items: center;
 }
 
-#presentation__container{
-    width: 80%;
-    height: 80%;
-    
-    display: flex;
+.presentation__container{
     flex-direction: column;
-
-    align-items: center;
-    justify-content: center;
 }
 
-#presentation__container h1{
+.presentation__container h1{
     font-size: 64px;
     font-weight: 700;
     color: var(--white);
@@ -27,11 +20,11 @@
     margin-bottom: 0.625rem;
 }
 
-#presentation__container h1 strong{
+.presentation__container h1 strong{
     color: var(--yellow);
 }
 
-#presentation__container p{
+.presentation__container p{
     font-size: 26px;
     letter-spacing: .625rem;
 
