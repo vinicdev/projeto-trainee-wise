@@ -1,7 +1,8 @@
 #about{
     background-color: var(--light-grey);
     width: 100%;
-    height: 100vh;
+    height: auto;
+    padding: 80px 0;
 
     display: flex;
     align-items: center;
@@ -36,3 +37,25 @@
     background-color: pink;
 }
 
+@media (max-width: 950px) {
+    .about__container{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #about__image{
+        width: 100%;
+        box-shadow: -10px -10px black;
+    }
+
+    #container__image, #container__content {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 700px) {
+    #about__image{
+        box-shadow: none;
+    }
+}

@@ -6,23 +6,23 @@
 #resume{
     background-color: var(--black);
     width: 100%;
-    height: 100vh;
+    height: auto;
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#container__left{
+/* #container__left{
     background-color: white;
     display: flex;
     flex-direction: column;
 
     width: 50%;
     height: 500px;
-}
+} */
 
-.graduation__items{
+/* .graduation__items{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -48,9 +48,10 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
-}
+} */
 
 .container__timeline{
+    width: 100%;
     /* min-height: 100vh; */
     padding: 20px 100px;
 }
