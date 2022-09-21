@@ -1,0 +1,181 @@
+.contact__container {
+    margin: 0 auto 80px auto;
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+.contact__title {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#contact__content {
+    width: 100%;
+    height: 357px;
+    padding: 20px;
+
+    background-color: #ECECEC;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* space email */
+
+#container__email {
+    width: 50%;
+}
+
+.line__input {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.email__input, #mensagem {
+    border: none;
+    padding-left: 5px;
+}
+
+.email__input {
+    height: 25px;
+}
+
+#mensagem {
+    resize: none;
+}
+
+#button__submit {
+    width: 100%;
+    height: 22px;
+    background-color: #FFF200;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#button__submit:hover {
+  background-color: #fbf359;
+}
+
+/* Space info */
+
+#container__info {
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.line__info {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.circle__info {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+
+    background-color: #FFF200;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__info {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content__info h3 {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.content__info p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+/* responsive */
+
+@media (max-width: 957px) {
+    .content__info {
+        width: 95%;
+    }
+}
+
+@media (max-width: 941px) {
+    .contact__container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact__container {
+        margin: 40px auto 80px auto;
+    }
+
+    #contact__content {
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container__email, #container__info {
+        width: 100%;
+    }
+
+    #container__email {
+        margin-bottom: 50px;
+    }
+
+    .line__info {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content__info {
+        width: 50%;
+    }
+}
+
+@media (max-width: 447px) {
+    .line__info {
+        width: 95%;
+    }
+
+    .content__info {
+        width: 80%;
+    }
+}
+
+@media (max-width: 364px) {
+    .content__info h3 {
+        font-size: 1.2rem;
+    }
+
+    .content__info p {
+        font-size: 0.94rem;
+    }
+
+}
