@@ -1,7 +1,6 @@
 #presentation{
     width: 100%;
-    height: auto;
-    padding: 20% 0;
+    height: 100vh;
     background-color: var(--black);
 
     display: flex;
