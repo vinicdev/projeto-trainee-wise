@@ -77,11 +77,11 @@
     font-size: 16px;
     color: #ffffff;
     margin-bottom: 0.5rem;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .graduation__item h4{
-    color: #ffffff;
+    color: var(--yellow);
 
     margin-bottom: 0.5rem;
 }
