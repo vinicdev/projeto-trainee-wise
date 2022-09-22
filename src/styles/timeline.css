@@ -6,24 +6,23 @@
 #timeline{
     background-color: var(--black);
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    padding-bottom: 2rem;
 }
 
 
 .container__timeline{
     width: 80%;
-    /* min-height: 100vh; */
-    /* padding: 20px 100px; */
 }
 
 
 #timeline__title{
     color: white;
-    margin-bottom: 1.5rem;
 }
 
 .container__timeline p{

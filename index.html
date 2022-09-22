@@ -25,11 +25,11 @@
     <header>
         <div id="navbar">
             <nav>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Resumo</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#presentation">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#timeline">Xp</a></li>
+                <li><a href="#contact">Contato</a></li>
             </nav>
         </div>
     </header>
@@ -186,10 +186,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- </div> -->
+            </div>        
         </section>
-
         <section id="contact">
             <div class="container contact__container">
                 <div class="container__title contact__title">
@@ -220,7 +218,9 @@
                     </div>
                     <div id="container__info">
                         <div class="line__info">
-                            <div class="circle__info"></div>
+                            <div class="circle__info">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </div>
 
                             <div class="content__info">
                                 <h3>Email</h3>
@@ -229,7 +229,7 @@
                         </div>
 
                         <div class="line__info">
-                            <div class="circle__info"></div>
+                            <div class="circle__info"> <i class="fa fa-whatsapp" aria-hidden="true" id="whatsappIcon"></i></div>
 
                             <div class="content__info">
                                 <h3>Telefone</h3>
@@ -238,7 +238,7 @@
                         </div>
 
                         <div class="line__info">
-                            <div class="circle__info"></div>
+                            <div class="circle__info"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
 
                             <div class="content__info">
                                 <h3>Localização</h3>
@@ -249,8 +249,11 @@
                 </div>
             </div>
         </section>
-
+        <a href="" class="to-top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
     </main>
+    <script src="src/scripts/main.js"></script>
 </body>
 
 </html>
