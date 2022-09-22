@@ -15,10 +15,15 @@
 
 
 .container__timeline{
-    width: 100%;
+    width: 80%;
     /* min-height: 100vh; */
-    padding: 20px 100px;
+    /* padding: 20px 100px; */
 }
+
+#timeline__title{
+    color: white;
+}
+
 
 .timeline__items{
     /* max-width: 1000px; */

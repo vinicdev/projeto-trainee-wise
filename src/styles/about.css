@@ -48,7 +48,14 @@
     flex-direction: column;
     
     margin: 20px 0;
-} 
+}
+
+#graduation__title{
+    margin-bottom: 20px;
+
+    font-size: 1.25rem;
+    font-weight: 700;
+}
 
  .graduation__items{
     display: flex;
@@ -59,18 +66,26 @@
 .graduation__item{
     width: 100%;
     background-color: #2f363e;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
 
-    margin-bottom: 10px;   
+    margin-bottom: 10px; 
+    text-align: center;  
 }
 
 .graduation__item h3{
     font-size: 16px;
     color: #ffffff;
-    margin: 0 0 2px;
-    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
 }
+
+.graduation__item h4{
+    color: #ffffff;
+
+    margin-bottom: 0.5rem;
+}
+
 
 .graduation__item p{
     color: #c8c8c8;
