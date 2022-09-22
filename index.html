@@ -12,11 +12,13 @@
     <link rel="stylesheet" href="src/styles/presentation.css">
     <link rel="stylesheet" href="src/styles/about.css">
     <link rel="stylesheet" href="src/styles/resume.css">
+    <link rel="stylesheet" href="src/styles/skills.css">
     <link rel="stylesheet" href="src/styles/contact.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/704c200ffd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 
 <body>
@@ -81,29 +83,29 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsa, quae nemo eos harum
                             atque. Officia quas, labore maiores laboriosam deleniti in accusamus mollitia esse
                             recusandae velit ipsum ipsam nemo?</p>
-                       
-                            <div id="container__graduation">
-                                <h3 id="graduation__title">Escolaridade</h3>                                
-                                <div class="graduation__items">
-                                    <div class="graduation__item">
-                                        <h3>Análise e Desenvolvimento de Sistemas</h3>
-                                        <h4>2021 - Atualmente</h4>
-                                        <p>Instituto Federal do Paraná</p>
-                                    </div>
-                                    <div class="graduation__item">
-                                        <h3>Técnico em Administração</h3>
-                                        <h4>2021 - 2022</h4>
-                                        <p>Instituto Federal do Paraná</p>
-                                    </div>
+
+                        <div id="container__graduation">
+                            <h3 id="graduation__title">Escolaridade</h3>
+                            <div class="graduation__items">
+                                <div class="graduation__item">
+                                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+                                    <h4>2021 - Atualmente</h4>
+                                    <p>Instituto Federal do Paraná</p>
                                 </div>
-                            </div>                       
+                                <div class="graduation__item">
+                                    <h3>Técnico em Administração</h3>
+                                    <h4>2021 - 2022</h4>
+                                    <p>Instituto Federal do Paraná</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
         </section>
         <section id="resume">
             <div class="container__timeline">
                 <div class="container__title">
-                    <h2 class="section__title" id="timeline__title">experiência</h2>
+                    <h2 class="section__title" id="timeline__title">experiências profissionais</h2>
                 </div>
                 <div class="timeline__items">
                     <div class="timeline__item">
@@ -139,6 +141,48 @@
             </div>
             <!-- </div> -->
         </section>
+        <section id="skills">
+            <div id="skills__container">
+                <div class="container__title">
+                    <h2 class="section__title" id="skills__title">skills</h2>
+                </div>
+                <div id="container__icons">
+                    <div class="skills__icons">
+                        <i class="devicon-html5-plain"></i>
+                    </div>
+                    <div class="skills__icons">
+                        <i class="devicon-css3-plain"></i>
+                    </div>
+                    <div class="skills__icons">
+                        <i class="devicon-javascript-plain"></i>
+                    </div>
+                    <div class="skills__icons">
+                        <i class="devicon-csharp-plain"></i>
+                    </div>
+                    <div class="skills__icons">
+                        <i class="devicon-dot-net-plain-wordmark"></i>
+                    </div>
+                    <div class="skills__icons">
+                        <i class="devicon-java-plain"></i>
+                    </div>
+                    <div class="skills__icons">
+                        <i class="devicon-git-plain"></i>
+                    </div>
+                    <div class="skills__icons">
+                        <i class="devicon-github-original"></i>
+                    </div>
+                    <div class="skills__icons">
+                        <i class="devicon-mysql-plain"></i>
+                    </div>
+                    <div class="skills__icons">
+                        <i class="devicon-docker-plain"></i>
+                    </div>
+                    <div class="skills__icons">
+                        <i class="devicon-figma-plain"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="contact">
             <div class="container contact__container">
                 <div class="container__title contact__title">
@@ -160,7 +204,8 @@
 
                             <div class="line__input">
                                 <label for="mensagem">mensagem</label>
-                                <textarea id="mensagem" cols="30" rows="10" placeholder="Deixe uma mensagem :)"></textarea>
+                                <textarea id="mensagem" cols="30" rows="10"
+                                    placeholder="Deixe uma mensagem :)"></textarea>
                             </div>
 
                             <button type="submit" id="button__submit">Enviar</button>
@@ -197,6 +242,7 @@
                 </div>
             </div>
         </section>
+
     </main>
 </body>
 
