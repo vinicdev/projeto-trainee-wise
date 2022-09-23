@@ -21,6 +21,7 @@ As principais tecnologias para realizar o projeto:
 | JavaScript | JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.] |
 | Visual Studio Code | O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. |
 | Figma | Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web. |
+| FormSubmit | FormSubmit é um formulário backend, api e serviço de e-mail para formulários HTML. |
 
 
    
