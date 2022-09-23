@@ -135,6 +135,10 @@
     line-height: 16px;
 }
 
+.content__info a{
+    text-decoration: none;
+}
+
 /* responsive */
 
 @media (max-width: 957px) {
