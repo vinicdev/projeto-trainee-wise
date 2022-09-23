@@ -6,8 +6,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     gap: 40px;
+    padding: 60px;
 }
+
+
+
 
 .presentation__container{
     flex-direction: column;
@@ -43,6 +48,23 @@
     }
 }
 
+@media (max-width: 585px) {
+    header{
+        opacity: 0;
+    }
+
+    .sticky {
+        background: transparent;
+    }
+}
+
+@media (max-width: 570px) {
+    #presentation{
+        padding: 30px;
+    }
+}
+
+
 @media (max-width: 450px) {
     .presentation__container h1{
         font-size: 38px;
@@ -52,3 +74,32 @@
         font-size: 15px;
     }  
 }
+
+@media (max-width: 403px) {
+    #presentation{
+        padding: 15px;
+    }
+
+    .presentation__container h1 {
+        font-size: 34px;
+    }
+
+    .presentation__container p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 333px) {
+    #presentation{
+        padding: 5px;
+    }
+
+    .presentation__container h1 {
+        font-size: 32px;
+    }
+
+    .presentation__container p {
+        font-size: 10px;
+    }
+}
+    

@@ -108,26 +108,12 @@ nav a:hover{
     background-color: var(--yellow);
 }
 
-#presentation{
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    flex-direction: center;
-
-    padding: 3.75rem;
-}
-
-/* .presentation__links{
-    margin-bottom: 50px;
-} */
 
 .presentation__links ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-direction: center;
-
+    gap:  10px;
     margin-bottom: 20px;
 }
 
@@ -145,6 +131,7 @@ nav a:hover{
 
 .presentation__links i:hover{
     color: var(--yellow);
+    transform: scale(1.2);
 }
 
 .to-top{
@@ -174,6 +161,12 @@ nav a:hover{
 
 /* Responsive */
 
+@media (max-width: 768px) {
+    .presentation__links i {
+        font-size: 36px;
+    }
+}
+
 @media (max-width: 700px) {
     .container {
         width: 95%;
@@ -190,4 +183,10 @@ nav a:hover{
     #navbar {
         visibility: hidden;
     }
+}
+
+@media (max-width: 585px) {
+    .to-top.active {
+        opacity: 0;
+     }
 }

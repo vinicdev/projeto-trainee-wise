@@ -150,13 +150,14 @@
 }
 
 @media (max-width: 767px) {
-    .contact__container {
-        margin: 40px auto 80px auto;
+    #contact {
+        height: auto;
+        width: 100%;
+        margin: 40px auto;
     }
 
     #contact__content {
         height: auto;
-
         display: flex;
         flex-direction: column;
     }
