@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: var(--inconsolata);
     overflow-x: hidden;
@@ -108,13 +112,13 @@ nav a:hover{
     background-color: var(--yellow);
 }
 
-
 .presentation__links ul{
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap:  10px;
-    margin-bottom: 20px;
 }
 
 .presentation__links li{
@@ -122,7 +126,7 @@ nav a:hover{
 }
 
 .presentation__links i{
-    color: var(--white);
+    color: var(--black);
     font-size: 26px;
     padding: 4px;
 
@@ -130,7 +134,8 @@ nav a:hover{
 }
 
 .presentation__links i:hover{
-    color: var(--yellow);
+    /* color: var(--yellow); */
+    opacity: .8;
     transform: scale(1.2);
 }
 
