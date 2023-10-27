@@ -29,9 +29,11 @@
     width: 449px;
     height: 491px;
     
-    background-image: url('../images/minha_foto.jpg');
+    background-image: url('../images/desenvolvedor-guilherme-navarro.jpeg');
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center;
+
 
     box-shadow: -30px -30px black;
 }
@@ -113,6 +115,8 @@
 
     #about__image{
         width: 100%;
+        background-image: url(/src/images/desenvolvedor-dot-net.jpeg);
+        background-position-y: revert-layer;
         box-shadow: -10px -10px black;
     }
 
